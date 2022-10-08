@@ -59,10 +59,22 @@ public class Questionnaire {
             System.out.println("Write down  the answer that  you think is correct :");
             Scanner scanner =new Scanner(System.in);
             String answer=scanner.nextLine();
-                if(answer.equalsIgnoreCase(ques.getAnswer())){
-                    System.out.println("good man ");
-                }
+               if(answer.equalsIgnoreCase(ques.getAnswer())){
+                    ques.setScore(1);
+
+               }
         }
+System.out.println("You finish your first Exam ");
+
+        int score=0;
+        for(Question ques :question) {
+
+        score+=ques.getScore();
+        }
+
+        System.out.println("Your Score is :"+score);
+
+
 
 
 
