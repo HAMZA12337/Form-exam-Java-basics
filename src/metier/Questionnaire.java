@@ -27,10 +27,7 @@ public class Questionnaire {
         return question;
     }
 
-
 //Setters
-
-
     public void setTitre(String titre) {
         this.titre = titre;
     }
@@ -38,20 +35,15 @@ public class Questionnaire {
     public void setQuestion(Question[] question) {
         this.question = question;
     }
-
-
     @Override
     public String toString() {
         String temp ="Questionnaire :"+getTitre();
         for(Question ques :question){
             temp+="\n"+ques.toString();
         }
-
         return temp;}
 
-
     // we need a methode that will stop users to enter their answers
-
     public void startExam(){
         String temp ="Questionnaire :"+getTitre();
         for(Question ques :question){
@@ -65,14 +57,10 @@ public class Questionnaire {
                }
         }
 System.out.println("You finish your first Exam ");
-
-        int score=0;
+   int score=0;
         for(Question ques :question) {
-
-        score+=ques.getScore();
-        }
-
-        System.out.println("Your Score is :"+score);
+            score+=ques.getScore();}
+         System.out.println("Your Score is :"+score);
 
 
 

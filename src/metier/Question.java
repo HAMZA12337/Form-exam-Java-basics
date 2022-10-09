@@ -1,28 +1,18 @@
 package metier;
-
-import java.util.Arrays;
-
 public class Question {
-
-
-
-
-    private  String titre ;
-    private String  description;
-    private Reponse[] reponse = new Reponse[3];
+     private  String titre ;
+     private String  description;
+     private Reponse[] reponse = new Reponse[3];
     private  int score ;
-
-    // Constructor
-
-    public Question(String titre, String description, Reponse[] reponse) {
+ // Constructor
+     public Question(String titre, String description, Reponse[] reponse) {
         this.titre = titre;
         this.description = description;
         this.reponse = reponse ;
     }
 
 //methode to get the right answer
-
-   public String getAnswer(){
+public String getAnswer(){
         for(Reponse rep :reponse){
             if(rep.getCoorect()==true){
 

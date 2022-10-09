@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="453596e4-9c79-4322-94c2-e1d1a929addf" name="Changes" comment="" />
+    <list default="true" id="453596e4-9c79-4322-94c2-e1d1a929addf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAPPORT_BRAIMI_HAMZA_BDCC_TP2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/RAPPORT_BRAIMI_HAMZA_BDCC_TP2.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Questionnaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Questionnaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Reponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Reponse.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/hp/Downloads/Form-exam-Java-basic"
+    "last_opened_file_path": "C:/Users/hp/Desktop/Form-exam-Java-basic"
   }
 }]]></component>
   <component name="RunManager">
@@ -75,6 +81,7 @@
       <workItem from="1665188582062" duration="40000" />
       <workItem from="1665188908207" duration="345000" />
       <workItem from="1665226500131" duration="12362000" />
+      <workItem from="1665321141275" duration="4372000" />
     </task>
     <servers />
   </component>

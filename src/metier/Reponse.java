@@ -1,31 +1,20 @@
 package metier;
 
 public class Reponse  {
-
     private  String titre  ;
     private Boolean coorect ;
-
 // Constructor
-
     public Reponse(String titre, Boolean coorect) {
         this.titre = titre;
-        this.coorect = coorect;
-    }
-
+        this.coorect = coorect;}
 //    Getters
-
-    public String getTitre() {
+public String getTitre() {
         return titre;
     }
-
     public Boolean getCoorect() {
         return coorect;
     }
-
-
-//Setters
-
-
+    //Setters
     public void setTitre(String titre) {
         this.titre = titre;
     }
